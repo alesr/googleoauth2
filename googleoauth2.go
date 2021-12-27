@@ -22,13 +22,7 @@ var (
 	ErrMissingRedirectURL     = errors.New("missing redirect url")
 )
 
-type Client struct {
-	httpCli     *http.Client
-	tokenChan   chan string
-	redirectURL string
-}
-
-func New(httpCli *http.Client, tokenCh chan string, credentialsPath, redirectURL string) (*Client, error) {
+func New(httpCli *http.Client, tokenCh chan string, credentialsPath, redirectURL string) (*http.Client, error) {
 	if credentialsPath == "" {
 		return nil, ErrMissingCredentialsPath
 	}
@@ -55,11 +49,7 @@ func New(httpCli *http.Client, tokenCh chan string, credentialsPath, redirectURL
 		return nil, fmt.Errorf("could not get authenticated client: %s", err)
 	}
 
-	return &Client{
-		httpCli:     client,
-		tokenChan:   tokenCh,
-		redirectURL: redirectURL,
-	}, nil
+	return client, nil
 }
 
 // Retrieve a token, saves the token, then returns the generated client.
