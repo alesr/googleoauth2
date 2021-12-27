@@ -1,9 +1,9 @@
-module github.com/alers/googleoauth2
+module github.com/alesr/googleoauth2
 
 go 1.17
 
 require (
-	github.com/alesr/callbacksrv v0.0.0-20211227164916-cb0976d5d164
+	github.com/alesr/callbacksrv v0.0.0-20211227180632-e2f77763e036
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.63.0
 )

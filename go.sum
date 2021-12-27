@@ -48,8 +48,8 @@ dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
-github.com/alesr/callbacksrv v0.0.0-20211227164916-cb0976d5d164 h1:O5qNQQtrBq/WNY8vnoDJYymNG0bSuSMQqgDFoIlG7Uk=
-github.com/alesr/callbacksrv v0.0.0-20211227164916-cb0976d5d164/go.mod h1:F5gS6mg+hneeqiFol4YJREzr9uLBd34gsVr4Cn93I/Y=
+github.com/alesr/callbacksrv v0.0.0-20211227180632-e2f77763e036 h1:Zxx7MT+fIMwZ5o+T5ECrrPWAAiHh4jyw9/WBexk7468=
+github.com/alesr/callbacksrv v0.0.0-20211227180632-e2f77763e036/go.mod h1:F5gS6mg+hneeqiFol4YJREzr9uLBd34gsVr4Cn93I/Y=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
