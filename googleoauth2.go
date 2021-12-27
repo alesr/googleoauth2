@@ -37,7 +37,7 @@ func New(httpCli *http.Client, tokenCh chan string, credentialsPath, redirectURL
 	}
 
 	// If modifying these scopes, delete your previously saved token.json.
-	config, err := google.ConfigFromJSON(b, drive.DriveMetadataReadonlyScope)
+	config, err := google.ConfigFromJSON(b, drive.DriveScope)
 	if err != nil {
 		return nil, fmt.Errorf("could not parse client secret file to config: %s", err)
 	}
